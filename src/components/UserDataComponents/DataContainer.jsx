@@ -8,7 +8,7 @@ function DataContainer() {
     <Grid style={{ padding: "0 50px" }}>
       <h1 style={{ float: "left" }}>Pending Orders</h1>
       <Grid
-        container
+        // container
         xs={12}
         sm={12}
         md={12}
