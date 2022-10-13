@@ -54,17 +54,17 @@ const PlotlyJs = () => {
           {
             x: xArray,
             y: yArray,
-            name: "2017",
+            name: "plot",
             type: "bar",
             orientation: "h",
           },
         ]}
         layout={{
-          width: 540,
-          height: 540,
+          width: "100%",
+          height: "100%",
           fontWeight: "bold",
           title: "Histogram",
-          overflowX: "auto",
+          overflowX: "scroll",
         }}
       />
     </Grid>
